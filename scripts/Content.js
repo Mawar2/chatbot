@@ -48,7 +48,6 @@ export class Content extends React.Component {
 
         let chat_messages = this.state.message_received
         console.log(chat_messages)
-        //console.log(chat_messages.keys)
         
         return (
             
