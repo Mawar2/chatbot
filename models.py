@@ -7,7 +7,7 @@ db = flask_sqlalchemy.SQLAlchemy(app)
 # creates a database object
 
 
-class chat_box_messages(db.Model): 
+class Message(db.Model): 
     #__tablename__ = 'message'
     id = db.Column(db.Integer, primary_key=True)
     text = db.Column(db.String(200))
@@ -16,4 +16,4 @@ class chat_box_messages(db.Model):
         self.text = text
         
     def __repr__(self):
-        return '<chat_box_messages text: %s>' % self.text 
+        return '<Message text: %s>' % self.text 
