@@ -23,6 +23,7 @@
   "dependencies": {
     "@pusher/chatkit-client": "^1.13.0",
     "@pusher/chatkit-server": "^2.1.1",
+    "react-google-login": "^5.0.5",
     "socket.io-client": "^2.2.0"
   }
 }
